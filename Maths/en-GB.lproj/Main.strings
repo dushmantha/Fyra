@@ -1,0 +1,123 @@
+
+/* Class = "UILabel"; text = "Teen"; ObjectID = "0O7-0c-KxP"; */
+"0O7-0c-KxP.text" = "Teen";
+
+/* Class = "UIButton"; normalTitle = "2000"; ObjectID = "0wH-TC-6bb"; */
+"0wH-TC-6bb.normalTitle" = "2000";
+
+/* Class = "UILabel"; text = "200"; ObjectID = "2wW-ye-xlo"; */
+"2wW-ye-xlo.text" = "200";
+
+/* Class = "UILabel"; text = "99999"; ObjectID = "6ce-GL-fE2"; */
+"6ce-GL-fE2.text" = "99999";
+
+/* Class = "UILabel"; text = "Junior"; ObjectID = "7dp-Mx-jZc"; */
+"7dp-Mx-jZc.text" = "Junior";
+
+/* Class = "UILabel"; text = "="; ObjectID = "8hM-xM-5q1"; */
+"8hM-xM-5q1.text" = "=";
+
+/* Class = "UILabel"; text = "13"; ObjectID = "BUf-9F-dJ6"; */
+"BUf-9F-dJ6.text" = "13";
+
+/* Class = "UILabel"; text = "200"; ObjectID = "CtV-ir-WDW"; */
+"CtV-ir-WDW.text" = "200";
+
+/* Class = "UILabel"; text = "Retry"; ObjectID = "Cvy-ug-EwQ"; */
+"Cvy-ug-EwQ.text" = "Retry";
+
+/* Class = "UILabel"; text = "300"; ObjectID = "DkM-7Q-9vv"; */
+"DkM-7Q-9vv.text" = "300";
+
+/* Class = "UIButton"; normalTitle = "3500"; ObjectID = "FdG-6R-JWf"; */
+"FdG-6R-JWf.normalTitle" = "3500";
+
+/* Class = "UILabel"; text = "="; ObjectID = "H2k-0V-Oqz"; */
+"H2k-0V-Oqz.text" = "=";
+
+/* Class = "UIButton"; normalTitle = "2500"; ObjectID = "H50-DH-Jyu"; */
+"H50-DH-Jyu.normalTitle" = "2500";
+
+/* Class = "UILabel"; text = "13"; ObjectID = "Hah-z2-ShL"; */
+"Hah-z2-ShL.text" = "13";
+
+/* Class = "UILabel"; text = "200"; ObjectID = "Ixr-JO-wBL"; */
+"Ixr-JO-wBL.text" = "200";
+
+/* Class = "UILabel"; text = "13"; ObjectID = "LxH-Wu-GIl"; */
+"LxH-Wu-GIl.text" = "13";
+
+/* Class = "UILabel"; text = "200"; ObjectID = "NdT-5q-w7a"; */
+"NdT-5q-w7a.text" = "200";
+
+/* Class = "UILabel"; text = "+10"; ObjectID = "OyY-bo-MpQ"; */
+"OyY-bo-MpQ.text" = "+10";
+
+/* Class = "UILabel"; text = "13"; ObjectID = "PZ5-sC-fFN"; */
+"PZ5-sC-fFN.text" = "13";
+
+/* Class = "UILabel"; text = "="; ObjectID = "RCm-v5-KMt"; */
+"RCm-v5-KMt.text" = "=";
+
+/* Class = "UILabel"; text = "Senior"; ObjectID = "RNz-2f-9YC"; */
+"RNz-2f-9YC.text" = "Senior";
+
+/* Class = "UILabel"; text = "Game Type"; ObjectID = "RSJ-La-Atr"; */
+"RSJ-La-Atr.text" = "Game Type";
+
+/* Class = "UILabel"; text = "+10"; ObjectID = "Ugb-SQ-pDz"; */
+"Ugb-SQ-pDz.text" = "+10";
+
+/* Class = "UILabel"; text = "+10"; ObjectID = "Wvc-ef-u9X"; */
+"Wvc-ef-u9X.text" = "+10";
+
+/* Class = "UILabel"; text = "Game Paused"; ObjectID = "XEy-bs-yH9"; */
+"XEy-bs-yH9.text" = "Game Paused";
+
+/* Class = "UILabel"; text = "026"; ObjectID = "Xoo-pF-l0d"; */
+"Xoo-pF-l0d.text" = "026";
+
+/* Class = "UILabel"; text = "Life"; ObjectID = "YkT-zX-tPK"; */
+"YkT-zX-tPK.text" = "Life";
+
+/* Class = "UILabel"; text = "Game Name"; ObjectID = "bqi-wP-m9C"; */
+"bqi-wP-m9C.text" = "Game Name";
+
+/* Class = "UILabel"; text = "13"; ObjectID = "d5S-lP-HbD"; */
+"d5S-lP-HbD.text" = "13";
+
+/* Class = "UILabel"; text = "Resume"; ObjectID = "fRi-rI-Bkl"; */
+"fRi-rI-Bkl.text" = "Resume";
+
+/* Class = "UILabel"; text = "Quit"; ObjectID = "gnj-QW-xGP"; */
+"gnj-QW-xGP.text" = "Quit";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "jO7-nZ-xZi"; */
+"jO7-nZ-xZi.text" = "Time";
+
+/* Class = "UILabel"; text = "999.99"; ObjectID = "kVm-Kw-zHo"; */
+"kVm-Kw-zHo.text" = "999.99";
+
+/* Class = "UILabel"; text = "only you need 200 points"; ObjectID = "lMm-9b-cFy"; */
+"lMm-9b-cFy.text" = "only you need 200 points";
+
+/* Class = "UILabel"; text = "99999"; ObjectID = "lZn-Bt-4KF"; */
+"lZn-Bt-4KF.text" = "99999";
+
+/* Class = "UILabel"; text = "026"; ObjectID = "mDs-4V-DGl"; */
+"mDs-4V-DGl.text" = "026";
+
+/* Class = "UILabel"; text = "99999"; ObjectID = "mTG-uK-07E"; */
+"mTG-uK-07E.text" = "99999";
+
+/* Class = "UILabel"; text = "026"; ObjectID = "npC-BY-bTQ"; */
+"npC-BY-bTQ.text" = "026";
+
+/* Class = "UILabel"; text = "Score"; ObjectID = "uKt-Ys-cTh"; */
+"uKt-Ys-cTh.text" = "Score";
+
+/* Class = "UILabel"; text = "13"; ObjectID = "vmv-5F-mMa"; */
+"vmv-5F-mMa.text" = "13";
+
+/* Class = "UILabel"; text = "999"; ObjectID = "wdu-En-Mhb"; */
+"wdu-En-Mhb.text" = "999";

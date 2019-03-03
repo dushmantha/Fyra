@@ -1,0 +1,1009 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37C4D03B222B9A6E006DD8FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C4D03A222B9A6E006DD8FA /* ViewController.swift */; };
+		37C4D03C222B9A6E006DD8FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C4D03A222B9A6E006DD8FA /* ViewController.swift */; };
+		37C4D03F222B9DBD006DD8FA /* MPaginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C4D03D222B9DBD006DD8FA /* MPaginViewController.swift */; };
+		37C4D040222B9DBD006DD8FA /* MPaginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C4D03D222B9DBD006DD8FA /* MPaginViewController.swift */; };
+		37C4D041222B9DBD006DD8FA /* MContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C4D03E222B9DBD006DD8FA /* MContentViewController.swift */; };
+		37C4D042222B9DBD006DD8FA /* MContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C4D03E222B9DBD006DD8FA /* MContentViewController.swift */; };
+		C1B061CC4C5BC7482B8BB026 /* Pods_FyraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC3D974266CD170271E5AE7 /* Pods_FyraTests.framework */; };
+		DD0550321B5A3A4F002C8BBF /* MPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0550311B5A3A4F002C8BBF /* MPointView.swift */; };
+		DD0550341B5A41FE002C8BBF /* MPrograssView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0550331B5A41FE002C8BBF /* MPrograssView.swift */; };
+		DD0550831B5ACE8E002C8BBF /* UIImage+profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0550821B5ACE8E002C8BBF /* UIImage+profile.swift */; };
+		DD65CA081B637137009C612D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD65CA061B637137009C612D /* Main.storyboard */; };
+		DD67005A1B641BD100F2C9F9 /* MHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6700591B641BD100F2C9F9 /* MHomeView.swift */; };
+		DD67005C1B641BFD00F2C9F9 /* MHomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD67005B1B641BFD00F2C9F9 /* MHomeView.xib */; };
+		DD6700661B641CA700F2C9F9 /* MGameTypeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD6700651B641CA700F2C9F9 /* MGameTypeView.xib */; };
+		DD6700681B641CBD00F2C9F9 /* MGameTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6700671B641CBD00F2C9F9 /* MGameTypeView.swift */; };
+		DD67006A1B641CD600F2C9F9 /* MGamePuasedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6700691B641CD600F2C9F9 /* MGamePuasedView.swift */; };
+		DD67006C1B641CEB00F2C9F9 /* MGamePuasedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD67006B1B641CEB00F2C9F9 /* MGamePuasedView.xib */; };
+		DD6700721B641DCB00F2C9F9 /* MMarksLoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6700711B641DCB00F2C9F9 /* MMarksLoadView.swift */; };
+		DD6700741B641DE800F2C9F9 /* MMarksLoadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD6700731B641DE800F2C9F9 /* MMarksLoadView.xib */; };
+		DD6700851B641EF200F2C9F9 /* MPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD6700841B641EF200F2C9F9 /* MPageView.xib */; };
+		DD6700871B641F0900F2C9F9 /* MPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6700861B641F0900F2C9F9 /* MPageView.swift */; };
+		DD6700891B641F5500F2C9F9 /* MPageViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6700881B641F5500F2C9F9 /* MPageViewContent.swift */; };
+		DD67008B1B641F6300F2C9F9 /* MPageViewContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD67008A1B641F6300F2C9F9 /* MPageViewContent.xib */; };
+		DD68F90B1B615CC900278903 /* MSAddImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD68F90A1B615CC900278903 /* MSAddImages.swift */; };
+		DD713F9E1B5B918B00AF113D /* MBallAnimationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD713F9D1B5B918B00AF113D /* MBallAnimationClass.swift */; };
+		DD7348A91B64C7BF00674035 /* MAnimationViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7348A81B64C7BF00674035 /* MAnimationViews.swift */; };
+		DD7348AC1B64E4DC00674035 /* MPlayGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7348AB1B64E4DC00674035 /* MPlayGameView.swift */; };
+		DD7348AE1B64E4EF00674035 /* MPlayGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD7348AD1B64E4EF00674035 /* MPlayGameView.xib */; };
+		DD7C50021B5D4A6400BB1439 /* MRandomNumberGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C50011B5D4A6400BB1439 /* MRandomNumberGenerator.swift */; };
+		DD7F56B81B6E04D300B4C2CF /* MCoreDataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7F56B71B6E04D300B4C2CF /* MCoreDataAccess.swift */; };
+		DD8471C81B6D52EE00DA86C0 /* BackGroundMusic.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DD8471C71B6D52EE00DA86C0 /* BackGroundMusic.mp4 */; };
+		DD8CAED61B66867C00DFB4FB /* MClockTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8CAED51B66867C00DFB4FB /* MClockTimer.swift */; };
+		DD8CAED81B6686B300DFB4FB /* MGamePlayClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8CAED71B6686B300DFB4FB /* MGamePlayClockView.swift */; };
+		DD9051D11B52C2A400755C50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9051D01B52C2A400755C50 /* AppDelegate.swift */; };
+		DD9051D41B52C2A400755C50 /* Maths.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD9051D21B52C2A400755C50 /* Maths.xcdatamodeld */; };
+		DD9051DB1B52C2A400755C50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9051DA1B52C2A400755C50 /* Images.xcassets */; };
+		DD9051DE1B52C2A400755C50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD9051DC1B52C2A400755C50 /* LaunchScreen.xib */; };
+		DD9051EA1B52C2A400755C50 /* MathsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9051E91B52C2A400755C50 /* MathsTests.swift */; };
+		DD9190481B62A0BC00B07065 /* MSetArithmaticOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9190471B62A0BC00B07065 /* MSetArithmaticOperation.swift */; };
+		DD91904B1B62A72C00B07065 /* MGenarateRandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD91904A1B62A72C00B07065 /* MGenarateRandomNumber.swift */; };
+		DD9F04EC1B811C4A004FF757 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9F04EB1B811C4A004FF757 /* GameKit.framework */; };
+		DDF2A43A1B58312000938FE8 /* MCupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF2A4391B58312000938FE8 /* MCupCollectionViewCell.swift */; };
+		F61D313B10269E1D7A5D7EE2 /* Pods_Fyra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE0F4412CB9DADE36C9EDC5 /* Pods_Fyra.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD9051E41B52C2A400755C50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9051C31B52C2A400755C50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD9051CA1B52C2A400755C50;
+			remoteInfo = Maths;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DDE8E9781B56D1240007CABE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		09C6EEA17BB7B5341FB98462 /* Pods-PKHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKHUD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PKHUD/Pods-PKHUD.debug.xcconfig"; sourceTree = "<group>"; };
+		1121E87F3E7ADC62586590C2 /* Pods-FyraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FyraTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FyraTests/Pods-FyraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		37C4D038222B8FD6006DD8FA /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		37C4D03A222B9A6E006DD8FA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37C4D03D222B9DBD006DD8FA /* MPaginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPaginViewController.swift; sourceTree = "<group>"; };
+		37C4D03E222B9DBD006DD8FA /* MContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MContentViewController.swift; sourceTree = "<group>"; };
+		52FE63256ECBEC819D3EF4BA /* Pods-PKHUDTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKHUDTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PKHUDTests/Pods-PKHUDTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AC3D974266CD170271E5AE7 /* Pods_FyraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FyraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A692482D2AAEBF300D9A4C /* Pods-Fyra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fyra.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fyra/Pods-Fyra.release.xcconfig"; sourceTree = "<group>"; };
+		6624C5089831A582D3C87379 /* Pods_PKHUDTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PKHUDTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		850653A92BBDD485D10335CF /* Pods-FyraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FyraTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FyraTests/Pods-FyraTests.release.xcconfig"; sourceTree = "<group>"; };
+		87E1810EE9597618729C3056 /* Pods-Fyra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fyra.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fyra/Pods-Fyra.debug.xcconfig"; sourceTree = "<group>"; };
+		88B612880F20DAD4EE65E3FD /* Pods-PKHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKHUD.release.xcconfig"; path = "Pods/Target Support Files/Pods-PKHUD/Pods-PKHUD.release.xcconfig"; sourceTree = "<group>"; };
+		B0226108AD6605FE728BBD7F /* Pods_PKHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PKHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE0F4412CB9DADE36C9EDC5 /* Pods_Fyra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fyra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0550311B5A3A4F002C8BBF /* MPointView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MPointView.swift; path = MCustomViews/MPointView.swift; sourceTree = "<group>"; };
+		DD0550331B5A41FE002C8BBF /* MPrograssView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MPrograssView.swift; path = MprograssView/MPrograssView.swift; sourceTree = "<group>"; };
+		DD0550821B5ACE8E002C8BBF /* UIImage+profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+profile.swift"; path = "MCategoryClass/UIImage+profile.swift"; sourceTree = "<group>"; };
+		DD65CA071B637137009C612D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD6700591B641BD100F2C9F9 /* MHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHomeView.swift; path = MViews/MHomeView.swift; sourceTree = "<group>"; };
+		DD67005B1B641BFD00F2C9F9 /* MHomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MHomeView.xib; path = MViews/MHomeView.xib; sourceTree = "<group>"; };
+		DD6700651B641CA700F2C9F9 /* MGameTypeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MGameTypeView.xib; path = MViews/MGameTypeView.xib; sourceTree = "<group>"; };
+		DD6700671B641CBD00F2C9F9 /* MGameTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MGameTypeView.swift; path = MViews/MGameTypeView.swift; sourceTree = "<group>"; };
+		DD6700691B641CD600F2C9F9 /* MGamePuasedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MGamePuasedView.swift; path = MViews/MGamePuasedView.swift; sourceTree = "<group>"; };
+		DD67006B1B641CEB00F2C9F9 /* MGamePuasedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MGamePuasedView.xib; path = MViews/MGamePuasedView.xib; sourceTree = "<group>"; };
+		DD6700711B641DCB00F2C9F9 /* MMarksLoadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MMarksLoadView.swift; path = MViews/MMarksLoadView.swift; sourceTree = "<group>"; };
+		DD6700731B641DE800F2C9F9 /* MMarksLoadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MMarksLoadView.xib; path = MViews/MMarksLoadView.xib; sourceTree = "<group>"; };
+		DD6700841B641EF200F2C9F9 /* MPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MPageView.xib; path = MViews/MPageView.xib; sourceTree = "<group>"; };
+		DD6700861B641F0900F2C9F9 /* MPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MPageView.swift; path = MViews/MPageView.swift; sourceTree = "<group>"; };
+		DD6700881B641F5500F2C9F9 /* MPageViewContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MPageViewContent.swift; path = MViews/MPageViewContent.swift; sourceTree = "<group>"; };
+		DD67008A1B641F6300F2C9F9 /* MPageViewContent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MPageViewContent.xib; path = MViews/MPageViewContent.xib; sourceTree = "<group>"; };
+		DD68F90A1B615CC900278903 /* MSAddImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSAddImages.swift; sourceTree = "<group>"; };
+		DD713F9D1B5B918B00AF113D /* MBallAnimationClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MBallAnimationClass.swift; path = MCustomViews/MBallAnimationClass.swift; sourceTree = "<group>"; };
+		DD7348A81B64C7BF00674035 /* MAnimationViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MAnimationViews.swift; path = MCustomViews/MAnimationViews.swift; sourceTree = "<group>"; };
+		DD7348AB1B64E4DC00674035 /* MPlayGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MPlayGameView.swift; path = MViews/MPlayGameView.swift; sourceTree = "<group>"; };
+		DD7348AD1B64E4EF00674035 /* MPlayGameView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MPlayGameView.xib; path = MViews/MPlayGameView.xib; sourceTree = "<group>"; };
+		DD7C50011B5D4A6400BB1439 /* MRandomNumberGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MRandomNumberGenerator.swift; path = "Util Class/MRandomNumberGenerator/MRandomNumberGenerator.swift"; sourceTree = "<group>"; };
+		DD7D0DF01B8701AB00939EE7 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		DD7D0DF11B8701AB00939EE7 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Main.strings"; sourceTree = "<group>"; };
+		DD7F56B71B6E04D300B4C2CF /* MCoreDataAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MCoreDataAccess.swift; path = MDB/MCoreDataAccess.swift; sourceTree = "<group>"; };
+		DD8471C71B6D52EE00DA86C0 /* BackGroundMusic.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = BackGroundMusic.mp4; path = MResouses/BackGroundMusic.mp4; sourceTree = "<group>"; };
+		DD8CAED51B66867C00DFB4FB /* MClockTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MClockTimer.swift; path = MGameClock/MClockTimer.swift; sourceTree = "<group>"; };
+		DD8CAED71B6686B300DFB4FB /* MGamePlayClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MGamePlayClockView.swift; path = MGameClock/MGamePlayClockView.swift; sourceTree = "<group>"; };
+		DD9051CB1B52C2A400755C50 /* Fyra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fyra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9051CF1B52C2A400755C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9051D01B52C2A400755C50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD9051D31B52C2A400755C50 /* Maths.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Maths.xcdatamodel; sourceTree = "<group>"; };
+		DD9051DA1B52C2A400755C50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD9051DD1B52C2A400755C50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DD9051E31B52C2A400755C50 /* FyraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FyraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9051E81B52C2A400755C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9051E91B52C2A400755C50 /* MathsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathsTests.swift; sourceTree = "<group>"; };
+		DD9190471B62A0BC00B07065 /* MSetArithmaticOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSetArithmaticOperation.swift; path = "Util Class/MSetArithMaticOperation/MSetArithmaticOperation.swift"; sourceTree = "<group>"; };
+		DD91904A1B62A72C00B07065 /* MGenarateRandomNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MGenarateRandomNumber.swift; path = "Util Class/MRandomNumberGenarate/MGenarateRandomNumber.swift"; sourceTree = "<group>"; };
+		DD9F04EB1B811C4A004FF757 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		DDF2A4391B58312000938FE8 /* MCupCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MCupCollectionViewCell.swift; path = MCollectionViewCell/MCupCollectionViewCell.swift; sourceTree = "<group>"; };
+		F935DC211088F7E57813D35E /* Pods-PKHUDTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKHUDTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PKHUDTests/Pods-PKHUDTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD9051C81B52C2A400755C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9F04EC1B811C4A004FF757 /* GameKit.framework in Frameworks */,
+				F61D313B10269E1D7A5D7EE2 /* Pods_Fyra.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9051E01B52C2A400755C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B061CC4C5BC7482B8BB026 /* Pods_FyraTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24D6B8E52AFD531B527DB441 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87E1810EE9597618729C3056 /* Pods-Fyra.debug.xcconfig */,
+				65A692482D2AAEBF300D9A4C /* Pods-Fyra.release.xcconfig */,
+				1121E87F3E7ADC62586590C2 /* Pods-FyraTests.debug.xcconfig */,
+				850653A92BBDD485D10335CF /* Pods-FyraTests.release.xcconfig */,
+				09C6EEA17BB7B5341FB98462 /* Pods-PKHUD.debug.xcconfig */,
+				88B612880F20DAD4EE65E3FD /* Pods-PKHUD.release.xcconfig */,
+				52FE63256ECBEC819D3EF4BA /* Pods-PKHUDTests.debug.xcconfig */,
+				F935DC211088F7E57813D35E /* Pods-PKHUDTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		70EFEA0D4FF48572489B32AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37C4D038222B8FD6006DD8FA /* GameKit.framework */,
+				CDE0F4412CB9DADE36C9EDC5 /* Pods_Fyra.framework */,
+				5AC3D974266CD170271E5AE7 /* Pods_FyraTests.framework */,
+				B0226108AD6605FE728BBD7F /* Pods_PKHUD.framework */,
+				6624C5089831A582D3C87379 /* Pods_PKHUDTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD6700581B641B6E00F2C9F9 /* MViews */ = {
+			isa = PBXGroup;
+			children = (
+				DD7348AF1B654DED00674035 /* MGameClock */,
+				DD6700831B641ED700F2C9F9 /* MPageView */,
+				DD6700611B641C6100F2C9F9 /* MPlayGameViews */,
+				DD6700601B641C4200F2C9F9 /* MPoint */,
+				DD67005F1B641C2B00F2C9F9 /* MGamePuase */,
+				DD67005E1B641C1D00F2C9F9 /* MGameType */,
+				DD67005D1B641C0C00F2C9F9 /* MHome */,
+			);
+			name = MViews;
+			sourceTree = "<group>";
+		};
+		DD67005D1B641C0C00F2C9F9 /* MHome */ = {
+			isa = PBXGroup;
+			children = (
+				DD6700591B641BD100F2C9F9 /* MHomeView.swift */,
+				DD67005B1B641BFD00F2C9F9 /* MHomeView.xib */,
+			);
+			name = MHome;
+			sourceTree = "<group>";
+		};
+		DD67005E1B641C1D00F2C9F9 /* MGameType */ = {
+			isa = PBXGroup;
+			children = (
+				DD6700651B641CA700F2C9F9 /* MGameTypeView.xib */,
+				DD6700671B641CBD00F2C9F9 /* MGameTypeView.swift */,
+			);
+			name = MGameType;
+			sourceTree = "<group>";
+		};
+		DD67005F1B641C2B00F2C9F9 /* MGamePuase */ = {
+			isa = PBXGroup;
+			children = (
+				DD6700691B641CD600F2C9F9 /* MGamePuasedView.swift */,
+				DD67006B1B641CEB00F2C9F9 /* MGamePuasedView.xib */,
+			);
+			name = MGamePuase;
+			sourceTree = "<group>";
+		};
+		DD6700601B641C4200F2C9F9 /* MPoint */ = {
+			isa = PBXGroup;
+			children = (
+				DD6700711B641DCB00F2C9F9 /* MMarksLoadView.swift */,
+				DD6700731B641DE800F2C9F9 /* MMarksLoadView.xib */,
+			);
+			name = MPoint;
+			sourceTree = "<group>";
+		};
+		DD6700611B641C6100F2C9F9 /* MPlayGameViews */ = {
+			isa = PBXGroup;
+			children = (
+				DD7348AB1B64E4DC00674035 /* MPlayGameView.swift */,
+				DD7348AD1B64E4EF00674035 /* MPlayGameView.xib */,
+			);
+			name = MPlayGameViews;
+			sourceTree = "<group>";
+		};
+		DD6700831B641ED700F2C9F9 /* MPageView */ = {
+			isa = PBXGroup;
+			children = (
+				DD6700841B641EF200F2C9F9 /* MPageView.xib */,
+				DD6700861B641F0900F2C9F9 /* MPageView.swift */,
+				DD6700881B641F5500F2C9F9 /* MPageViewContent.swift */,
+				DD67008A1B641F6300F2C9F9 /* MPageViewContent.xib */,
+			);
+			name = MPageView;
+			sourceTree = "<group>";
+		};
+		DD68F9091B615CC900278903 /* MAddImages */ = {
+			isa = PBXGroup;
+			children = (
+				DD68F90A1B615CC900278903 /* MSAddImages.swift */,
+			);
+			name = MAddImages;
+			path = "Util Class/MAddImages";
+			sourceTree = "<group>";
+		};
+		DD713F931B5B78CB00AF113D /* MCustomViewClass */ = {
+			isa = PBXGroup;
+			children = (
+				DD7348A71B64C79000674035 /* MAnimationView */,
+				DD713F981B5B833F00AF113D /* MBallViews */,
+				DD7C1D171B59761B0089C7E1 /* MPrograssView */,
+			);
+			name = MCustomViewClass;
+			sourceTree = "<group>";
+		};
+		DD713F981B5B833F00AF113D /* MBallViews */ = {
+			isa = PBXGroup;
+			children = (
+				DD713F9D1B5B918B00AF113D /* MBallAnimationClass.swift */,
+			);
+			name = MBallViews;
+			sourceTree = "<group>";
+		};
+		DD7348A71B64C79000674035 /* MAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				DD7348A81B64C7BF00674035 /* MAnimationViews.swift */,
+			);
+			name = MAnimationView;
+			sourceTree = "<group>";
+		};
+		DD7348AF1B654DED00674035 /* MGameClock */ = {
+			isa = PBXGroup;
+			children = (
+				DD8CAED51B66867C00DFB4FB /* MClockTimer.swift */,
+				DD8CAED71B6686B300DFB4FB /* MGamePlayClockView.swift */,
+			);
+			name = MGameClock;
+			sourceTree = "<group>";
+		};
+		DD7C1D171B59761B0089C7E1 /* MPrograssView */ = {
+			isa = PBXGroup;
+			children = (
+				DD0550331B5A41FE002C8BBF /* MPrograssView.swift */,
+				DD0550311B5A3A4F002C8BBF /* MPointView.swift */,
+			);
+			name = MPrograssView;
+			sourceTree = "<group>";
+		};
+		DD7C50001B5D4A1700BB1439 /* MRandomNumberGen */ = {
+			isa = PBXGroup;
+			children = (
+				DD7C50011B5D4A6400BB1439 /* MRandomNumberGenerator.swift */,
+			);
+			name = MRandomNumberGen;
+			sourceTree = "<group>";
+		};
+		DD8471C61B6D529F00DA86C0 /* MResouses */ = {
+			isa = PBXGroup;
+			children = (
+				DD8471C71B6D52EE00DA86C0 /* BackGroundMusic.mp4 */,
+			);
+			name = MResouses;
+			sourceTree = "<group>";
+		};
+		DD9051C21B52C2A400755C50 = {
+			isa = PBXGroup;
+			children = (
+				DD9051CD1B52C2A400755C50 /* Maths */,
+				DD9051E61B52C2A400755C50 /* MathsTests */,
+				DD9F04EB1B811C4A004FF757 /* GameKit.framework */,
+				DD9051CC1B52C2A400755C50 /* Products */,
+				24D6B8E52AFD531B527DB441 /* Pods */,
+				70EFEA0D4FF48572489B32AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD9051CC1B52C2A400755C50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD9051CB1B52C2A400755C50 /* Fyra.app */,
+				DD9051E31B52C2A400755C50 /* FyraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD9051CD1B52C2A400755C50 /* Maths */ = {
+			isa = PBXGroup;
+			children = (
+				DD8471C61B6D529F00DA86C0 /* MResouses */,
+				DD6700581B641B6E00F2C9F9 /* MViews */,
+				DD713F931B5B78CB00AF113D /* MCustomViewClass */,
+				DDF2A4381B5830C200938FE8 /* MCollectionCell */,
+				DD9051FD1B52C3A100755C50 /* MExtensions */,
+				DD9051FC1B52C39300755C50 /* MUtill */,
+				DD9051F81B52C30900755C50 /* MLaunchScreen */,
+				DD9051F71B52C2FE00755C50 /* MDB */,
+				DD9051F61B52C2F200755C50 /* MImages */,
+				DD9051F51B52C2E100755C50 /* MStoryboard */,
+				DD9051F41B52C2D800755C50 /* MDelegate */,
+				DD9051CE1B52C2A400755C50 /* Supporting Files */,
+			);
+			path = Maths;
+			sourceTree = "<group>";
+		};
+		DD9051CE1B52C2A400755C50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD9051CF1B52C2A400755C50 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD9051E61B52C2A400755C50 /* MathsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD9051E91B52C2A400755C50 /* MathsTests.swift */,
+				DD9051E71B52C2A400755C50 /* Supporting Files */,
+			);
+			path = MathsTests;
+			sourceTree = "<group>";
+		};
+		DD9051E71B52C2A400755C50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD9051E81B52C2A400755C50 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD9051F41B52C2D800755C50 /* MDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DD9051D01B52C2A400755C50 /* AppDelegate.swift */,
+			);
+			name = MDelegate;
+			sourceTree = "<group>";
+		};
+		DD9051F51B52C2E100755C50 /* MStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				37C4D03A222B9A6E006DD8FA /* ViewController.swift */,
+				37C4D03E222B9DBD006DD8FA /* MContentViewController.swift */,
+				37C4D03D222B9DBD006DD8FA /* MPaginViewController.swift */,
+				DD65CA061B637137009C612D /* Main.storyboard */,
+			);
+			name = MStoryboard;
+			sourceTree = "<group>";
+		};
+		DD9051F61B52C2F200755C50 /* MImages */ = {
+			isa = PBXGroup;
+			children = (
+				DD9051DA1B52C2A400755C50 /* Images.xcassets */,
+			);
+			name = MImages;
+			sourceTree = "<group>";
+		};
+		DD9051F71B52C2FE00755C50 /* MDB */ = {
+			isa = PBXGroup;
+			children = (
+				DD9051FB1B52C36A00755C50 /* MDBDaoClass */,
+				DD9051F91B52C33A00755C50 /* MDBSchema */,
+			);
+			name = MDB;
+			sourceTree = "<group>";
+		};
+		DD9051F81B52C30900755C50 /* MLaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DD9051DC1B52C2A400755C50 /* LaunchScreen.xib */,
+			);
+			name = MLaunchScreen;
+			sourceTree = "<group>";
+		};
+		DD9051F91B52C33A00755C50 /* MDBSchema */ = {
+			isa = PBXGroup;
+			children = (
+				DD9051D21B52C2A400755C50 /* Maths.xcdatamodeld */,
+			);
+			name = MDBSchema;
+			sourceTree = "<group>";
+		};
+		DD9051FB1B52C36A00755C50 /* MDBDaoClass */ = {
+			isa = PBXGroup;
+			children = (
+				DD7F56B71B6E04D300B4C2CF /* MCoreDataAccess.swift */,
+			);
+			name = MDBDaoClass;
+			sourceTree = "<group>";
+		};
+		DD9051FC1B52C39300755C50 /* MUtill */ = {
+			isa = PBXGroup;
+			children = (
+				DD9190491B62A6E900B07065 /* MGenarateRandomNumber */,
+				DD9190461B62A05B00B07065 /* MSetArithMaticOperation */,
+				DD68F9091B615CC900278903 /* MAddImages */,
+				DD7C50001B5D4A1700BB1439 /* MRandomNumberGen */,
+			);
+			name = MUtill;
+			sourceTree = "<group>";
+		};
+		DD9051FD1B52C3A100755C50 /* MExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				DD0550821B5ACE8E002C8BBF /* UIImage+profile.swift */,
+			);
+			name = MExtensions;
+			sourceTree = "<group>";
+		};
+		DD9190461B62A05B00B07065 /* MSetArithMaticOperation */ = {
+			isa = PBXGroup;
+			children = (
+				DD9190471B62A0BC00B07065 /* MSetArithmaticOperation.swift */,
+			);
+			name = MSetArithMaticOperation;
+			sourceTree = "<group>";
+		};
+		DD9190491B62A6E900B07065 /* MGenarateRandomNumber */ = {
+			isa = PBXGroup;
+			children = (
+				DD91904A1B62A72C00B07065 /* MGenarateRandomNumber.swift */,
+			);
+			name = MGenarateRandomNumber;
+			sourceTree = "<group>";
+		};
+		DDF2A4381B5830C200938FE8 /* MCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				DDF2A4391B58312000938FE8 /* MCupCollectionViewCell.swift */,
+			);
+			name = MCollectionCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD9051CA1B52C2A400755C50 /* Fyra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9051ED1B52C2A400755C50 /* Build configuration list for PBXNativeTarget "Fyra" */;
+			buildPhases = (
+				D9D8C9876B2FE8858586CFEE /* [CP] Check Pods Manifest.lock */,
+				DD9051C71B52C2A400755C50 /* Sources */,
+				DD9051C81B52C2A400755C50 /* Frameworks */,
+				DD9051C91B52C2A400755C50 /* Resources */,
+				DDE8E9781B56D1240007CABE /* Embed Frameworks */,
+				34A154487BCB94D64C6C533A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fyra;
+			productName = Maths;
+			productReference = DD9051CB1B52C2A400755C50 /* Fyra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD9051E21B52C2A400755C50 /* FyraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9051F01B52C2A400755C50 /* Build configuration list for PBXNativeTarget "FyraTests" */;
+			buildPhases = (
+				562BAC1A410620C5E848F9ED /* [CP] Check Pods Manifest.lock */,
+				DD9051DF1B52C2A400755C50 /* Sources */,
+				DD9051E01B52C2A400755C50 /* Frameworks */,
+				DD9051E11B52C2A400755C50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9051E51B52C2A400755C50 /* PBXTargetDependency */,
+			);
+			name = FyraTests;
+			productName = MathsTests;
+			productReference = DD9051E31B52C2A400755C50 /* FyraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD9051C31B52C2A400755C50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = M;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Tharaka Dushmantha";
+				TargetAttributes = {
+					DD9051CA1B52C2A400755C50 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = KWNT724QLH;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+					DD9051E21B52C2A400755C50 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = KWNT724QLH;
+						TestTargetID = DD9051CA1B52C2A400755C50;
+					};
+				};
+			};
+			buildConfigurationList = DD9051C61B52C2A400755C50 /* Build configuration list for PBXProject "Fyra" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"en-GB",
+			);
+			mainGroup = DD9051C21B52C2A400755C50;
+			productRefGroup = DD9051CC1B52C2A400755C50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD9051CA1B52C2A400755C50 /* Fyra */,
+				DD9051E21B52C2A400755C50 /* FyraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD9051C91B52C2A400755C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD67006C1B641CEB00F2C9F9 /* MGamePuasedView.xib in Resources */,
+				DD67008B1B641F6300F2C9F9 /* MPageViewContent.xib in Resources */,
+				DD8471C81B6D52EE00DA86C0 /* BackGroundMusic.mp4 in Resources */,
+				DD6700851B641EF200F2C9F9 /* MPageView.xib in Resources */,
+				DD6700741B641DE800F2C9F9 /* MMarksLoadView.xib in Resources */,
+				DD65CA081B637137009C612D /* Main.storyboard in Resources */,
+				DD9051DE1B52C2A400755C50 /* LaunchScreen.xib in Resources */,
+				DD67005C1B641BFD00F2C9F9 /* MHomeView.xib in Resources */,
+				DD9051DB1B52C2A400755C50 /* Images.xcassets in Resources */,
+				DD6700661B641CA700F2C9F9 /* MGameTypeView.xib in Resources */,
+				DD7348AE1B64E4EF00674035 /* MPlayGameView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9051E11B52C2A400755C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34A154487BCB94D64C6C533A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fyra/Pods-Fyra-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fyra/Pods-Fyra-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		562BAC1A410620C5E848F9ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FyraTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9D8C9876B2FE8858586CFEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fyra-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD9051C71B52C2A400755C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6700891B641F5500F2C9F9 /* MPageViewContent.swift in Sources */,
+				DD9190481B62A0BC00B07065 /* MSetArithmaticOperation.swift in Sources */,
+				DD6700681B641CBD00F2C9F9 /* MGameTypeView.swift in Sources */,
+				DD6700871B641F0900F2C9F9 /* MPageView.swift in Sources */,
+				DD68F90B1B615CC900278903 /* MSAddImages.swift in Sources */,
+				DD713F9E1B5B918B00AF113D /* MBallAnimationClass.swift in Sources */,
+				DD8CAED61B66867C00DFB4FB /* MClockTimer.swift in Sources */,
+				37C4D03B222B9A6E006DD8FA /* ViewController.swift in Sources */,
+				DD9051D11B52C2A400755C50 /* AppDelegate.swift in Sources */,
+				37C4D041222B9DBD006DD8FA /* MContentViewController.swift in Sources */,
+				DD67006A1B641CD600F2C9F9 /* MGamePuasedView.swift in Sources */,
+				DD91904B1B62A72C00B07065 /* MGenarateRandomNumber.swift in Sources */,
+				DD9051D41B52C2A400755C50 /* Maths.xcdatamodeld in Sources */,
+				DD7348A91B64C7BF00674035 /* MAnimationViews.swift in Sources */,
+				DD0550321B5A3A4F002C8BBF /* MPointView.swift in Sources */,
+				DD7F56B81B6E04D300B4C2CF /* MCoreDataAccess.swift in Sources */,
+				DD7348AC1B64E4DC00674035 /* MPlayGameView.swift in Sources */,
+				37C4D03F222B9DBD006DD8FA /* MPaginViewController.swift in Sources */,
+				DD67005A1B641BD100F2C9F9 /* MHomeView.swift in Sources */,
+				DD0550341B5A41FE002C8BBF /* MPrograssView.swift in Sources */,
+				DD0550831B5ACE8E002C8BBF /* UIImage+profile.swift in Sources */,
+				DD7C50021B5D4A6400BB1439 /* MRandomNumberGenerator.swift in Sources */,
+				DD8CAED81B6686B300DFB4FB /* MGamePlayClockView.swift in Sources */,
+				DD6700721B641DCB00F2C9F9 /* MMarksLoadView.swift in Sources */,
+				DDF2A43A1B58312000938FE8 /* MCupCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9051DF1B52C2A400755C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C4D03C222B9A6E006DD8FA /* ViewController.swift in Sources */,
+				37C4D040222B9DBD006DD8FA /* MPaginViewController.swift in Sources */,
+				37C4D042222B9DBD006DD8FA /* MContentViewController.swift in Sources */,
+				DD9051EA1B52C2A400755C50 /* MathsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD9051E51B52C2A400755C50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD9051CA1B52C2A400755C50 /* Fyra */;
+			targetProxy = DD9051E41B52C2A400755C50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD65CA061B637137009C612D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD65CA071B637137009C612D /* Base */,
+				DD7D0DF11B8701AB00939EE7 /* en-GB */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD9051DC1B52C2A400755C50 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9051DD1B52C2A400755C50 /* Base */,
+				DD7D0DF01B8701AB00939EE7 /* en-GB */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD9051EB1B52C2A400755C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = FOUR;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		DD9051EC1B52C2A400755C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FOUR;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD9051EE1B52C2A400755C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87E1810EE9597618729C3056 /* Pods-Fyra.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tharaka Dushmantha (4BAVLJAC4D)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = KWNT724QLH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Maths/Framework",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Maths/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.4our.math.com;
+				PRODUCT_NAME = Fyra;
+				PROVISIONING_PROFILE = "d1dde334-db19-4de6-a09b-758a0b55decd";
+				PROVISIONING_PROFILE_SPECIFIER = fyra_dev;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DD9051EF1B52C2A400755C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65A692482D2AAEBF300D9A4C /* Pods-Fyra.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tharaka Dushmantha (KWNT724QLH)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = KWNT724QLH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Maths/Framework",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Maths/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.4our.math.com;
+				PRODUCT_NAME = Fyra;
+				PROVISIONING_PROFILE = "f1a4407b-dcd6-4b56-a82b-9c3d6a323c16";
+				PROVISIONING_PROFILE_SPECIFIER = "fyra Distribution";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DD9051F11B52C2A400755C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1121E87F3E7ADC62586590C2 /* Pods-FyraTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KWNT724QLH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MathsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "App.MathsGames.com.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = FyraTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Maths.app/Maths";
+			};
+			name = Debug;
+		};
+		DD9051F21B52C2A400755C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 850653A92BBDD485D10335CF /* Pods-FyraTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KWNT724QLH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MathsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "App.MathsGames.com.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = FyraTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Maths.app/Maths";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD9051C61B52C2A400755C50 /* Build configuration list for PBXProject "Fyra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9051EB1B52C2A400755C50 /* Debug */,
+				DD9051EC1B52C2A400755C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9051ED1B52C2A400755C50 /* Build configuration list for PBXNativeTarget "Fyra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9051EE1B52C2A400755C50 /* Debug */,
+				DD9051EF1B52C2A400755C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9051F01B52C2A400755C50 /* Build configuration list for PBXNativeTarget "FyraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9051F11B52C2A400755C50 /* Debug */,
+				DD9051F21B52C2A400755C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD9051D21B52C2A400755C50 /* Maths.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD9051D31B52C2A400755C50 /* Maths.xcdatamodel */,
+			);
+			currentVersion = DD9051D31B52C2A400755C50 /* Maths.xcdatamodel */;
+			path = Maths.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD9051C31B52C2A400755C50 /* Project object */;
+}

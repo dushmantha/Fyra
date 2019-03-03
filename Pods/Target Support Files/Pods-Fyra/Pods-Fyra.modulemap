@@ -1,0 +1,6 @@
+framework module Pods_Fyra {
+  umbrella header "Pods-Fyra-umbrella.h"
+
+  export *
+  module * { export * }
+}

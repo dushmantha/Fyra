@@ -1,0 +1,28 @@
+PODS:
+  - PKHUD (5.2.1)
+  - Spring (1.0.6)
+
+DEPENDENCIES:
+  - PKHUD (~> 5.0)
+  - Spring (from `https://github.com/MengTo/Spring.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PKHUD
+
+EXTERNAL SOURCES:
+  Spring:
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: fafd0b2e8d4d46405bd86fa7ba84bb7f73a20b13
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  PKHUD: 4e6162c4c39ac367c6934e9855c6b4762ee16256
+  Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
+
+PODFILE CHECKSUM: c5cb03a54b4ae4571f9afcb5a656222b54289c53
+
+COCOAPODS: 1.5.3

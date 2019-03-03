@@ -1,0 +1,1241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033AD29C894376B4562F8B123610270E /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA6F19DA0A37E2E9B146331A458F006 /* ImageLoader.swift */; };
+		0410EA36EB213CA5C2CDABB1C73CC03E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2CC5E0A6241BEBD2160CB506518103 /* LoadingView.swift */; };
+		0AD7956E61AD5EF273B31E3878B480F9 /* PKHUDSquareBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F992829A64AC4A60AF45504DFF5FC /* PKHUDSquareBaseView.swift */; };
+		0C2767249291A4A1505A28CFC9498026 /* PKHUDRotatingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DADD745A74DBE3532240A277CB44706 /* PKHUDRotatingImageView.swift */; };
+		0F4DD3C94E4DF364C580CCA89D9C2415 /* PKHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0B415178E15835F55EDF071BF26B0D2 /* PKHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11BFF64383F4C9AA74B4842EB7B86338 /* Pods-Fyra-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70EF76C925A095DD660342473A4174E6 /* Pods-Fyra-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D4B29F7F701F23BE690209E83732C0F /* Pods-FyraTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 635A7521C00546086C81FD2EE0E5FEC6 /* Pods-FyraTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EC1A203984EAB341E7919B4804113CB /* Spring-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC855E42B222CFDE4E2442404B36CA2E /* Spring-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		263D3E5D43D7A409E4C12ECFA4D385F3 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B093253B441E9854F7824533CF572 /* UnwindSegue.swift */; };
+		2C7A596D1F2963E6BF8759A4421D489F /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551536E74AB6A344CE60CB797AB066D1 /* BlurView.swift */; };
+		346D96EC6AD5E044E3DD8D0413C531B4 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B10581E9CEB78E7463151209035858F /* DesignableButton.swift */; };
+		37CE7BF0539FF57DFDC31A1E7F99DE66 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644DF904944DA21FC7734F2021AC50E7 /* DesignableView.swift */; };
+		3BC5BD0252DA8DA05906C5D590C834C9 /* PKHUDAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2617BB70F5F06867733DFA1EF3491B7 /* PKHUDAnimation.swift */; };
+		3D8A37980B8903477F9F69787E3A9C14 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21120B7C8C64CFB95BD224091E370002 /* DesignableTabBarController.swift */; };
+		40233B1C6249BFFCCAE0DF167F2FF4A1 /* Pods-FyraTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E475893F9013B11A4DBD4FC7E47660 /* Pods-FyraTests-dummy.m */; };
+		4AED4F593B6BA19C2BFB1219F33F9786 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		4FC4DA714B42350BC08EA10BD54A38AE /* PKHUDErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AA9DC00163F7886DEF9FD7BB0618E6 /* PKHUDErrorView.swift */; };
+		51922405AAE7A0967A0FCD8C902EC83D /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112BDE69C19C37A893D430B2A1743CB5 /* SpringView.swift */; };
+		544C43867BB433B1E3B6135A7C299D2B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FD99A0203CA8302FEEFBBF04049DA15 /* Images.xcassets */; };
+		5701A5452B78F848CFE4EA65223ECCA2 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1934921B6A93C196B7F09B6AE3A45D /* TransitionZoom.swift */; };
+		584DA6928D93CB8AA7DDDEB67FF8FE5C /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A294468297C184EF2ECD5EFD613EB130 /* FrameView.swift */; };
+		5B1E75D11D2C7AD4AA9E001143E1492E /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64D1E21274B8D75D048290311195D71 /* SpringLabel.swift */; };
+		6384CC7276BF926A6E48E96AA10EFC1A /* PKHUDSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E6C72E958923E92D8A52EAA4C69A6 /* PKHUDSuccessView.swift */; };
+		67E158A0727585CCB1C0751ED68008EA /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C7FA89026A27D195CABCD7E7DC43B9 /* Spring.swift */; };
+		695A4D580E443E5DE0356968CCC393CD /* PKHUDSystemActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A91214D5671A4AE0575C1F94E5285C /* PKHUDSystemActivityIndicatorView.swift */; };
+		6CFC3D5922A25E7887FF98731E8F75FC /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 335CDBF41F88C93ACEA91EF5A6E7D858 /* LoadingView.xib */; };
+		7187B4DDEF3EF96F0E6983A9A0AEE61E /* PKHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD0D9733421E3C574FF21863C5E19D /* PKHUD.swift */; };
+		78B029B6D7F554212B95F64F80CDEC33 /* PKHUDAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A720DE0B27AE136B83F86BAEA42D94 /* PKHUDAnimating.swift */; };
+		7E49EB565118F1F3A231528110A1FF5F /* PKHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 171B586ACAFAECEA055A610D9D95A920 /* PKHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80A5D76C0DEF169F196CE28A51F2EFBD /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDD3741D07E89863C264081528FF18A /* TransitionManager.swift */; };
+		8201CF032B37A081BBF1CB3E2E573CB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		861A83E84F0EC39F840743D1A0660FC5 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3591D3784F9A7DD050E93627C11C9A /* SoundPlayer.swift */; };
+		8A71B3452093E5FDDAC6CD0C5E0F61D5 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A80ABD395C83EDA2190399B0E5EF7E /* SpringAnimation.swift */; };
+		8C4D24A5AC87E30A33214EA4E7FA359B /* PKHUDAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE82D90673D1EF89FF93621A0464DA /* PKHUDAssets.swift */; };
+		8E945BA2AB75EB4A3E0B0E66CAB5D17C /* WindowRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5E4FD83CD4BA2722DE91988B29FD3 /* WindowRootViewController.swift */; };
+		9967627CA12A571655D6F64ECD4688B3 /* PKHUDResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 34B452954B20088B6A4D9C1128B600D8 /* PKHUDResources.bundle */; };
+		99D620F94B0CD9C041635D559BD81B4A /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B6711AFA50280F059B2330BE7FCA98 /* HUD.swift */; };
+		9A1224693C7C3574E4A517844399E668 /* PKHUDWideBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDAAA4334413E4D35351BFFEB0D22BB /* PKHUDWideBaseView.swift */; };
+		A5BA3195C26671DC1A1C611C3928C014 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB304A170C95C89B438714696C72684 /* SpringImageView.swift */; };
+		A6814D76444841F19FB2F03784B12B44 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DEB18B380C1BF8299CFB2F13F5B390 /* AutoTextView.swift */; };
+		AC595F7D171592EADE499655EF9B99BD /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1939157E192E2716ABF8C176D236E1C6 /* DesignableLabel.swift */; };
+		B20CB7773A267E01F52049C7A44AD9AC /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C36CE49E334D6A7E91528D6D39FB14 /* KeyboardLayoutConstraint.swift */; };
+		B37A6249D0D75C604ECA41733B47F48B /* Spring-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A8BB3C8648AC768F3A4E795D5A93F5 /* Spring-dummy.m */; };
+		B49C0CEF1B1C6ACAF782E5E8DA8ADE6E /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4E08E8FDA2FBDCC0D57ACC1A777D7 /* SpringTextField.swift */; };
+		B857D57BA384665C2654CEC15484A74B /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C365094F34E52D7A0545404D19D6A8 /* AsyncButton.swift */; };
+		BABB00B439421D8E6C0CA74E4856DC1A /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB7E863A3E44BCE0E40479440A10E1C /* AsyncImageView.swift */; };
+		C16DB56D2D110826C502A4DFF6A6F0D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8C51A3DB54E9490D538E99EBD925D3 /* Images.xcassets */; };
+		C55F9AED173B7EB47B8B682BFB5B1F9B /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A6055549C2F43B7C75BC2758B9B58 /* DesignableTextField.swift */; };
+		C6782B8D0400FDF3C29F6DFA26ED0C01 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5028A81F1532102276FB827C9CDBAF90 /* Misc.swift */; };
+		D590BC782AB038270B57F0B3672EA8FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E5B622F04499A1FEB9E0AD2EADFCD90E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		EA448087CF120FD05F25AACF83545866 /* Pods-Fyra-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 456EB54FD93A50A16172252795B29D4D /* Pods-Fyra-dummy.m */; };
+		EB6118DF76C0B2DF1EB2180D3BBBC655 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7515ABB8F2ADD2D279C66CDA17A0FCD8 /* SpringButton.swift */; };
+		EC093FB80F3090C6B466C94280790C23 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F99ECE3089FF1F75E8126C4B7C5858 /* Window.swift */; };
+		ECA9CCDEB9371ED78FFC662C9ADD5A10 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA69285735F98CE8D0C49B6B7BF46DC /* SpringTextView.swift */; };
+		ECB37571500A625742833F6EDD1CE4E1 /* PKHUDTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AE9FB8C95875AE29826BFE9E1EDD3C /* PKHUDTextView.swift */; };
+		ED38828CD0409A41B5D20AB0EB39E62F /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717BFAAA3C1D3AA345D926C3EE0D066 /* DesignableImageView.swift */; };
+		F51584A61D18FFFF50A115D6351EB91C /* PKHUDProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F5B375ACBC2F2D34A3235C6A144105 /* PKHUDProgressView.swift */; };
+		F86FE1EF612D049AE02120C7131FCCE6 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571A61BE7550E6747206906498FD9A65 /* DesignableTextView.swift */; };
+		F9718DA2D558B553E75E2031B94D55D8 /* PKHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1E7372989F8C3638ED83FABCD68862 /* PKHUD-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D0E185D2D95C644D89EE74584A554B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0422742DF5CC42F97485A5A4607BBEE9;
+			remoteInfo = PKHUD;
+		};
+		90C85E4AFEBF9B8359C9E72E2A3E4444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70C5FED20085B1354EF68991DF4DA813;
+			remoteInfo = "Pods-Fyra";
+		};
+		E0883D7F7AB2ACD8990E5C3D4857446A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3315A1ABAE8BC33824D088C610C951;
+			remoteInfo = "PKHUD-PKHUDResources";
+		};
+		E82D13EF2B6758EECE3EC3CAE3E003AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4320254321AA87AF3CC99EC7EF5055A8;
+			remoteInfo = Spring;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001FCC94FD228BB02AE0153B5A956184 /* ResourceBundle-PKHUDResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PKHUDResources-Info.plist"; sourceTree = "<group>"; };
+		08A91214D5671A4AE0575C1F94E5285C /* PKHUDSystemActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSystemActivityIndicatorView.swift; path = PKHUD/PKHUDSystemActivityIndicatorView.swift; sourceTree = "<group>"; };
+		0A4E9CF2275D768EED7AA3DA821A10B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110F4CC0B321BDE3FCDBB0F2B861B3A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112BDE69C19C37A893D430B2A1743CB5 /* SpringView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringView.swift; path = Spring/SpringView.swift; sourceTree = "<group>"; };
+		16B041750F7C360D3BEA65CD9374A580 /* Pods-Fyra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fyra.release.xcconfig"; sourceTree = "<group>"; };
+		171B586ACAFAECEA055A610D9D95A920 /* PKHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PKHUD.h; path = PKHUD/PKHUD.h; sourceTree = "<group>"; };
+		1939157E192E2716ABF8C176D236E1C6 /* DesignableLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableLabel.swift; path = Spring/DesignableLabel.swift; sourceTree = "<group>"; };
+		1B10581E9CEB78E7463151209035858F /* DesignableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableButton.swift; path = Spring/DesignableButton.swift; sourceTree = "<group>"; };
+		1EE3795476549006F9B265D3585ED408 /* Pods-Fyra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fyra.debug.xcconfig"; sourceTree = "<group>"; };
+		21120B7C8C64CFB95BD224091E370002 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTabBarController.swift; path = Spring/DesignableTabBarController.swift; sourceTree = "<group>"; };
+		26C7FA89026A27D195CABCD7E7DC43B9 /* Spring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spring.swift; path = Spring/Spring.swift; sourceTree = "<group>"; };
+		27AE9FB8C95875AE29826BFE9E1EDD3C /* PKHUDTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDTextView.swift; path = PKHUD/PKHUDTextView.swift; sourceTree = "<group>"; };
+		28F99ECE3089FF1F75E8126C4B7C5858 /* Window.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Window.swift; path = PKHUD/Window.swift; sourceTree = "<group>"; };
+		2E0B093253B441E9854F7824533CF572 /* UnwindSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnwindSegue.swift; path = Spring/UnwindSegue.swift; sourceTree = "<group>"; };
+		2FA7DC0E959CB258847B9536267C58FA /* Pods-Fyra-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fyra-frameworks.sh"; sourceTree = "<group>"; };
+		335CDBF41F88C93ACEA91EF5A6E7D858 /* LoadingView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LoadingView.xib; path = Spring/LoadingView.xib; sourceTree = "<group>"; };
+		3440A0614518C08F5780E4A135928A80 /* PKHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHUD-prefix.pch"; sourceTree = "<group>"; };
+		34B452954B20088B6A4D9C1128B600D8 /* PKHUDResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PKHUDResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F5B375ACBC2F2D34A3235C6A144105 /* PKHUDProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDProgressView.swift; path = PKHUD/PKHUDProgressView.swift; sourceTree = "<group>"; };
+		36DEB18B380C1BF8299CFB2F13F5B390 /* AutoTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoTextView.swift; path = Spring/AutoTextView.swift; sourceTree = "<group>"; };
+		39B6711AFA50280F059B2330BE7FCA98 /* HUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUD.swift; path = PKHUD/HUD.swift; sourceTree = "<group>"; };
+		3BB1429DABA8084B746C1A3558F20530 /* Pods-FyraTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FyraTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		456EB54FD93A50A16172252795B29D4D /* Pods-Fyra-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fyra-dummy.m"; sourceTree = "<group>"; };
+		4BA6F19DA0A37E2E9B146331A458F006 /* ImageLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = Spring/ImageLoader.swift; sourceTree = "<group>"; };
+		5028A81F1532102276FB827C9CDBAF90 /* Misc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = Spring/Misc.swift; sourceTree = "<group>"; };
+		551536E74AB6A344CE60CB797AB066D1 /* BlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = Spring/BlurView.swift; sourceTree = "<group>"; };
+		571A61BE7550E6747206906498FD9A65 /* DesignableTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextView.swift; path = Spring/DesignableTextView.swift; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B8A6055549C2F43B7C75BC2758B9B58 /* DesignableTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextField.swift; path = Spring/DesignableTextField.swift; sourceTree = "<group>"; };
+		5D2DD472FA911128308458E3589B2C4B /* Spring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Spring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DADD745A74DBE3532240A277CB44706 /* PKHUDRotatingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDRotatingImageView.swift; path = PKHUD/PKHUDRotatingImageView.swift; sourceTree = "<group>"; };
+		635A7521C00546086C81FD2EE0E5FEC6 /* Pods-FyraTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FyraTests-umbrella.h"; sourceTree = "<group>"; };
+		640A98DCFF4A2D2FF91FA3B96026F79F /* Pods-FyraTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FyraTests.modulemap"; sourceTree = "<group>"; };
+		644DF904944DA21FC7734F2021AC50E7 /* DesignableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = Spring/DesignableView.swift; sourceTree = "<group>"; };
+		65B815C25244D9998B68ACF3C91354AB /* Spring-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spring-prefix.pch"; sourceTree = "<group>"; };
+		65E475893F9013B11A4DBD4FC7E47660 /* Pods-FyraTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FyraTests-dummy.m"; sourceTree = "<group>"; };
+		6717BFAAA3C1D3AA345D926C3EE0D066 /* DesignableImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableImageView.swift; path = Spring/DesignableImageView.swift; sourceTree = "<group>"; };
+		69C36CE49E334D6A7E91528D6D39FB14 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutConstraint.swift; path = Spring/KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		6B1E7372989F8C3638ED83FABCD68862 /* PKHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PKHUD-dummy.m"; sourceTree = "<group>"; };
+		6B3F992829A64AC4A60AF45504DFF5FC /* PKHUDSquareBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSquareBaseView.swift; path = PKHUD/PKHUDSquareBaseView.swift; sourceTree = "<group>"; };
+		6BB4E08E8FDA2FBDCC0D57ACC1A777D7 /* SpringTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextField.swift; path = Spring/SpringTextField.swift; sourceTree = "<group>"; };
+		6F38B61B115936680658EEC7351B9C37 /* Pods_Fyra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fyra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EF76C925A095DD660342473A4174E6 /* Pods-Fyra-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fyra-umbrella.h"; sourceTree = "<group>"; };
+		746EE7027FA9BC38DC5CEAC4B05485E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7515ABB8F2ADD2D279C66CDA17A0FCD8 /* SpringButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringButton.swift; path = Spring/SpringButton.swift; sourceTree = "<group>"; };
+		845CAEA8861CEFCB4C5BA59869F101FA /* Pods-FyraTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FyraTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		854A80C8B53BF4223FC09556E8D7F4E4 /* PKHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PKHUD.modulemap; sourceTree = "<group>"; };
+		8C661213AA5855FC3FD81F625C36CC58 /* Spring.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Spring.xcconfig; sourceTree = "<group>"; };
+		8CA5E4FD83CD4BA2722DE91988B29FD3 /* WindowRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowRootViewController.swift; path = PKHUD/WindowRootViewController.swift; sourceTree = "<group>"; };
+		9008F981319B37623F633C703DC778F3 /* Pods-FyraTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FyraTests-resources.sh"; sourceTree = "<group>"; };
+		90C365094F34E52D7A0545404D19D6A8 /* AsyncButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncButton.swift; path = Spring/AsyncButton.swift; sourceTree = "<group>"; };
+		9382AC6B8475294C99796EFEB6EB22EF /* Spring.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Spring.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A1ACC6F235A19144B739E054BE4BF87 /* Pods-Fyra-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fyra-acknowledgements.plist"; sourceTree = "<group>"; };
+		9AB304A170C95C89B438714696C72684 /* SpringImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringImageView.swift; path = Spring/SpringImageView.swift; sourceTree = "<group>"; };
+		9BBD0D9733421E3C574FF21863C5E19D /* PKHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUD.swift; path = PKHUD/PKHUD.swift; sourceTree = "<group>"; };
+		9FD99A0203CA8302FEEFBBF04049DA15 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SpringApp/Images.xcassets; sourceTree = "<group>"; };
+		A294468297C184EF2ECD5EFD613EB130 /* FrameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameView.swift; path = PKHUD/FrameView.swift; sourceTree = "<group>"; };
+		A29F77AB12EC0ADDB8CBB820412A8CEA /* Pods-FyraTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FyraTests-frameworks.sh"; sourceTree = "<group>"; };
+		AA266D73A0D4D558B9EF0DE2C0EAF6F5 /* Pods-Fyra-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fyra-resources.sh"; sourceTree = "<group>"; };
+		AFCE158212046AE632BE5AB65E2A9A12 /* Pods-Fyra-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fyra-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0B762EC969BEF2FB85DBA928B4CD7D3 /* PKHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PKHUD.xcconfig; sourceTree = "<group>"; };
+		B5A8BB3C8648AC768F3A4E795D5A93F5 /* Spring-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Spring-dummy.m"; sourceTree = "<group>"; };
+		B9A80ABD395C83EDA2190399B0E5EF7E /* SpringAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = Spring/SpringAnimation.swift; sourceTree = "<group>"; };
+		BB1934921B6A93C196B7F09B6AE3A45D /* TransitionZoom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionZoom.swift; path = Spring/TransitionZoom.swift; sourceTree = "<group>"; };
+		BCDD3741D07E89863C264081528FF18A /* TransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionManager.swift; path = Spring/TransitionManager.swift; sourceTree = "<group>"; };
+		BE8C51A3DB54E9490D538E99EBD925D3 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PKHUD/Images.xcassets; sourceTree = "<group>"; };
+		C0F4AB62CC861644D9729D1E56FA41A4 /* Pods_FyraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FyraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26E6C72E958923E92D8A52EAA4C69A6 /* PKHUDSuccessView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSuccessView.swift; path = PKHUD/PKHUDSuccessView.swift; sourceTree = "<group>"; };
+		C31D92569A67ABC964E30AE98F62AB6C /* Pods-FyraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FyraTests.release.xcconfig"; sourceTree = "<group>"; };
+		C528B39829F5E0C879A39D5F51C6EFF8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFEE82D90673D1EF89FF93621A0464DA /* PKHUDAssets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAssets.swift; path = PKHUD/PKHUDAssets.swift; sourceTree = "<group>"; };
+		D763E0FD57582BFF7D65466279EADD3C /* Pods-Fyra.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Fyra.modulemap"; sourceTree = "<group>"; };
+		DA3591D3784F9A7DD050E93627C11C9A /* SoundPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SoundPlayer.swift; path = Spring/SoundPlayer.swift; sourceTree = "<group>"; };
+		E5A720DE0B27AE136B83F86BAEA42D94 /* PKHUDAnimating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAnimating.swift; path = PKHUD/PKHUDAnimating.swift; sourceTree = "<group>"; };
+		E64D1E21274B8D75D048290311195D71 /* SpringLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringLabel.swift; path = Spring/SpringLabel.swift; sourceTree = "<group>"; };
+		EDDC7F0C93897B51DAABBDA8DB9015A3 /* Pods-FyraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FyraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE8F76AF7FA09ACCA6D7481A3382A719 /* PKHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PKHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B415178E15835F55EDF071BF26B0D2 /* PKHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHUD-umbrella.h"; sourceTree = "<group>"; };
+		F2617BB70F5F06867733DFA1EF3491B7 /* PKHUDAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAnimation.swift; path = PKHUD/PKHUDAnimation.swift; sourceTree = "<group>"; };
+		F7AA9DC00163F7886DEF9FD7BB0618E6 /* PKHUDErrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDErrorView.swift; path = PKHUD/PKHUDErrorView.swift; sourceTree = "<group>"; };
+		FAA69285735F98CE8D0C49B6B7BF46DC /* SpringTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextView.swift; path = Spring/SpringTextView.swift; sourceTree = "<group>"; };
+		FC855E42B222CFDE4E2442404B36CA2E /* Spring-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spring-umbrella.h"; sourceTree = "<group>"; };
+		FE2CC5E0A6241BEBD2160CB506518103 /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = Spring/LoadingView.swift; sourceTree = "<group>"; };
+		FEB7E863A3E44BCE0E40479440A10E1C /* AsyncImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncImageView.swift; path = Spring/AsyncImageView.swift; sourceTree = "<group>"; };
+		FFDAAA4334413E4D35351BFFEB0D22BB /* PKHUDWideBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDWideBaseView.swift; path = PKHUD/PKHUDWideBaseView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B05982540D0DB8E481A163C956F4822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B622F04499A1FEB9E0AD2EADFCD90E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FE3369001C48E0814D39F9D43E2A38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8201CF032B37A081BBF1CB3E2E573CB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3A17705631D41E5B336B63B7938FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AED4F593B6BA19C2BFB1219F33F9786 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E842A3ABB93E530ACB61EEA1EAC23D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D590BC782AB038270B57F0B3672EA8FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA62ABB802391986FD5254C46A96CC16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0689D970FFE6097EFF10E5D4CB1219BB /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				90C365094F34E52D7A0545404D19D6A8 /* AsyncButton.swift */,
+				FEB7E863A3E44BCE0E40479440A10E1C /* AsyncImageView.swift */,
+				36DEB18B380C1BF8299CFB2F13F5B390 /* AutoTextView.swift */,
+				551536E74AB6A344CE60CB797AB066D1 /* BlurView.swift */,
+				1B10581E9CEB78E7463151209035858F /* DesignableButton.swift */,
+				6717BFAAA3C1D3AA345D926C3EE0D066 /* DesignableImageView.swift */,
+				1939157E192E2716ABF8C176D236E1C6 /* DesignableLabel.swift */,
+				21120B7C8C64CFB95BD224091E370002 /* DesignableTabBarController.swift */,
+				5B8A6055549C2F43B7C75BC2758B9B58 /* DesignableTextField.swift */,
+				571A61BE7550E6747206906498FD9A65 /* DesignableTextView.swift */,
+				644DF904944DA21FC7734F2021AC50E7 /* DesignableView.swift */,
+				4BA6F19DA0A37E2E9B146331A458F006 /* ImageLoader.swift */,
+				69C36CE49E334D6A7E91528D6D39FB14 /* KeyboardLayoutConstraint.swift */,
+				FE2CC5E0A6241BEBD2160CB506518103 /* LoadingView.swift */,
+				5028A81F1532102276FB827C9CDBAF90 /* Misc.swift */,
+				DA3591D3784F9A7DD050E93627C11C9A /* SoundPlayer.swift */,
+				26C7FA89026A27D195CABCD7E7DC43B9 /* Spring.swift */,
+				B9A80ABD395C83EDA2190399B0E5EF7E /* SpringAnimation.swift */,
+				7515ABB8F2ADD2D279C66CDA17A0FCD8 /* SpringButton.swift */,
+				9AB304A170C95C89B438714696C72684 /* SpringImageView.swift */,
+				E64D1E21274B8D75D048290311195D71 /* SpringLabel.swift */,
+				6BB4E08E8FDA2FBDCC0D57ACC1A777D7 /* SpringTextField.swift */,
+				FAA69285735F98CE8D0C49B6B7BF46DC /* SpringTextView.swift */,
+				112BDE69C19C37A893D430B2A1743CB5 /* SpringView.swift */,
+				BCDD3741D07E89863C264081528FF18A /* TransitionManager.swift */,
+				BB1934921B6A93C196B7F09B6AE3A45D /* TransitionZoom.swift */,
+				2E0B093253B441E9854F7824533CF572 /* UnwindSegue.swift */,
+				5F681A245535F9E959BD4029128147C4 /* Resources */,
+				8D34B1C2AE263049DA336E566EC938E7 /* Support Files */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		09E81083E7473A8B8E3F85905860E940 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F76AF7FA09ACCA6D7481A3382A719 /* PKHUD.framework */,
+				34B452954B20088B6A4D9C1128B600D8 /* PKHUDResources.bundle */,
+				6F38B61B115936680658EEC7351B9C37 /* Pods_Fyra.framework */,
+				C0F4AB62CC861644D9729D1E56FA41A4 /* Pods_FyraTests.framework */,
+				5D2DD472FA911128308458E3589B2C4B /* Spring.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28AAB0D50E52078C7D59A3E67D938F64 /* Pods-Fyra */ = {
+			isa = PBXGroup;
+			children = (
+				C528B39829F5E0C879A39D5F51C6EFF8 /* Info.plist */,
+				D763E0FD57582BFF7D65466279EADD3C /* Pods-Fyra.modulemap */,
+				AFCE158212046AE632BE5AB65E2A9A12 /* Pods-Fyra-acknowledgements.markdown */,
+				9A1ACC6F235A19144B739E054BE4BF87 /* Pods-Fyra-acknowledgements.plist */,
+				456EB54FD93A50A16172252795B29D4D /* Pods-Fyra-dummy.m */,
+				2FA7DC0E959CB258847B9536267C58FA /* Pods-Fyra-frameworks.sh */,
+				AA266D73A0D4D558B9EF0DE2C0EAF6F5 /* Pods-Fyra-resources.sh */,
+				70EF76C925A095DD660342473A4174E6 /* Pods-Fyra-umbrella.h */,
+				1EE3795476549006F9B265D3585ED408 /* Pods-Fyra.debug.xcconfig */,
+				16B041750F7C360D3BEA65CD9374A580 /* Pods-Fyra.release.xcconfig */,
+			);
+			name = "Pods-Fyra";
+			path = "Target Support Files/Pods-Fyra";
+			sourceTree = "<group>";
+		};
+		32410555BDF3905A240E46BFA09E8854 /* Pods-FyraTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A4E9CF2275D768EED7AA3DA821A10B1 /* Info.plist */,
+				640A98DCFF4A2D2FF91FA3B96026F79F /* Pods-FyraTests.modulemap */,
+				3BB1429DABA8084B746C1A3558F20530 /* Pods-FyraTests-acknowledgements.markdown */,
+				845CAEA8861CEFCB4C5BA59869F101FA /* Pods-FyraTests-acknowledgements.plist */,
+				65E475893F9013B11A4DBD4FC7E47660 /* Pods-FyraTests-dummy.m */,
+				A29F77AB12EC0ADDB8CBB820412A8CEA /* Pods-FyraTests-frameworks.sh */,
+				9008F981319B37623F633C703DC778F3 /* Pods-FyraTests-resources.sh */,
+				635A7521C00546086C81FD2EE0E5FEC6 /* Pods-FyraTests-umbrella.h */,
+				EDDC7F0C93897B51DAABBDA8DB9015A3 /* Pods-FyraTests.debug.xcconfig */,
+				C31D92569A67ABC964E30AE98F62AB6C /* Pods-FyraTests.release.xcconfig */,
+			);
+			name = "Pods-FyraTests";
+			path = "Target Support Files/Pods-FyraTests";
+			sourceTree = "<group>";
+		};
+		47AAF56068CB0A58A960F032A4996A2E /* PKHUD */ = {
+			isa = PBXGroup;
+			children = (
+				A294468297C184EF2ECD5EFD613EB130 /* FrameView.swift */,
+				39B6711AFA50280F059B2330BE7FCA98 /* HUD.swift */,
+				171B586ACAFAECEA055A610D9D95A920 /* PKHUD.h */,
+				9BBD0D9733421E3C574FF21863C5E19D /* PKHUD.swift */,
+				E5A720DE0B27AE136B83F86BAEA42D94 /* PKHUDAnimating.swift */,
+				F2617BB70F5F06867733DFA1EF3491B7 /* PKHUDAnimation.swift */,
+				CFEE82D90673D1EF89FF93621A0464DA /* PKHUDAssets.swift */,
+				F7AA9DC00163F7886DEF9FD7BB0618E6 /* PKHUDErrorView.swift */,
+				34F5B375ACBC2F2D34A3235C6A144105 /* PKHUDProgressView.swift */,
+				5DADD745A74DBE3532240A277CB44706 /* PKHUDRotatingImageView.swift */,
+				6B3F992829A64AC4A60AF45504DFF5FC /* PKHUDSquareBaseView.swift */,
+				C26E6C72E958923E92D8A52EAA4C69A6 /* PKHUDSuccessView.swift */,
+				08A91214D5671A4AE0575C1F94E5285C /* PKHUDSystemActivityIndicatorView.swift */,
+				27AE9FB8C95875AE29826BFE9E1EDD3C /* PKHUDTextView.swift */,
+				FFDAAA4334413E4D35351BFFEB0D22BB /* PKHUDWideBaseView.swift */,
+				28F99ECE3089FF1F75E8126C4B7C5858 /* Window.swift */,
+				8CA5E4FD83CD4BA2722DE91988B29FD3 /* WindowRootViewController.swift */,
+				52B3E9B4D32536257988DEFD703E4AF9 /* Resources */,
+				E1F54000103EB12B83B20BB09C0098FD /* Support Files */,
+			);
+			path = PKHUD;
+			sourceTree = "<group>";
+		};
+		52B3E9B4D32536257988DEFD703E4AF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE8C51A3DB54E9490D538E99EBD925D3 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F681A245535F9E959BD4029128147C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9FD99A0203CA8302FEEFBBF04049DA15 /* Images.xcassets */,
+				335CDBF41F88C93ACEA91EF5A6E7D858 /* LoadingView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6E816842E6F3F1C756947662292AF19F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28AAB0D50E52078C7D59A3E67D938F64 /* Pods-Fyra */,
+				32410555BDF3905A240E46BFA09E8854 /* Pods-FyraTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7B3319118C1039CB298049D6BB026167 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47AAF56068CB0A58A960F032A4996A2E /* PKHUD */,
+				0689D970FFE6097EFF10E5D4CB1219BB /* Spring */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7B3319118C1039CB298049D6BB026167 /* Pods */,
+				09E81083E7473A8B8E3F85905860E940 /* Products */,
+				6E816842E6F3F1C756947662292AF19F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D34B1C2AE263049DA336E566EC938E7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				746EE7027FA9BC38DC5CEAC4B05485E5 /* Info.plist */,
+				9382AC6B8475294C99796EFEB6EB22EF /* Spring.modulemap */,
+				8C661213AA5855FC3FD81F625C36CC58 /* Spring.xcconfig */,
+				B5A8BB3C8648AC768F3A4E795D5A93F5 /* Spring-dummy.m */,
+				65B815C25244D9998B68ACF3C91354AB /* Spring-prefix.pch */,
+				FC855E42B222CFDE4E2442404B36CA2E /* Spring-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Spring";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1F54000103EB12B83B20BB09C0098FD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				110F4CC0B321BDE3FCDBB0F2B861B3A5 /* Info.plist */,
+				854A80C8B53BF4223FC09556E8D7F4E4 /* PKHUD.modulemap */,
+				B0B762EC969BEF2FB85DBA928B4CD7D3 /* PKHUD.xcconfig */,
+				6B1E7372989F8C3638ED83FABCD68862 /* PKHUD-dummy.m */,
+				3440A0614518C08F5780E4A135928A80 /* PKHUD-prefix.pch */,
+				F0B415178E15835F55EDF071BF26B0D2 /* PKHUD-umbrella.h */,
+				001FCC94FD228BB02AE0153B5A956184 /* ResourceBundle-PKHUDResources-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PKHUD";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		19CFFE9F9C2624D362955D0BB0083B7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC1A203984EAB341E7919B4804113CB /* Spring-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D5972DE07B4B80CB6237E0A8864BA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4DD3C94E4DF364C580CCA89D9C2415 /* PKHUD-umbrella.h in Headers */,
+				7E49EB565118F1F3A231528110A1FF5F /* PKHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D291C265B9D86389B8DDCC7C3CE728A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D4B29F7F701F23BE690209E83732C0F /* Pods-FyraTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD04292EB89F1CE70BBFBDDF08192B16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11BFF64383F4C9AA74B4842EB7B86338 /* Pods-Fyra-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0422742DF5CC42F97485A5A4607BBEE9 /* PKHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F3745AF89B93F23E8A26CA404655A54 /* Build configuration list for PBXNativeTarget "PKHUD" */;
+			buildPhases = (
+				46D5972DE07B4B80CB6237E0A8864BA1 /* Headers */,
+				4475B13BB559D6E38EFC0C3B6E0DFB2E /* Sources */,
+				3C3A17705631D41E5B336B63B7938FA9 /* Frameworks */,
+				24D8FE0F203AF51C109E11B445C23B82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08CE7830C1B53D424111C0E1C7BECDA6 /* PBXTargetDependency */,
+			);
+			name = PKHUD;
+			productName = PKHUD;
+			productReference = EE8F76AF7FA09ACCA6D7481A3382A719 /* PKHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4320254321AA87AF3CC99EC7EF5055A8 /* Spring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2804599F57098FD74576D81BB6C2EDA /* Build configuration list for PBXNativeTarget "Spring" */;
+			buildPhases = (
+				19CFFE9F9C2624D362955D0BB0083B7F /* Headers */,
+				E94A747548A0B0D9788E6342D39DED40 /* Sources */,
+				0B05982540D0DB8E481A163C956F4822 /* Frameworks */,
+				A472BC7D7DA5A4D3B3BF980E2DBB1575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spring;
+			productName = Spring;
+			productReference = 5D2DD472FA911128308458E3589B2C4B /* Spring.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C3315A1ABAE8BC33824D088C610C951 /* PKHUD-PKHUDResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C15B5AB1F9207DB439180AE3C39F2C0 /* Build configuration list for PBXNativeTarget "PKHUD-PKHUDResources" */;
+			buildPhases = (
+				0DBDAD36350E4197D78E2E1F0A787823 /* Sources */,
+				FA62ABB802391986FD5254C46A96CC16 /* Frameworks */,
+				02240CBC53F5A9C7D71BDF1AF7D9F620 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PKHUD-PKHUDResources";
+			productName = "PKHUD-PKHUDResources";
+			productReference = 34B452954B20088B6A4D9C1128B600D8 /* PKHUDResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		70C5FED20085B1354EF68991DF4DA813 /* Pods-Fyra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 381276FC1832C261A01967F16A9A08BE /* Build configuration list for PBXNativeTarget "Pods-Fyra" */;
+			buildPhases = (
+				CD04292EB89F1CE70BBFBDDF08192B16 /* Headers */,
+				6828A815CE7F6B63936A10D59DFE9B81 /* Sources */,
+				31FE3369001C48E0814D39F9D43E2A38 /* Frameworks */,
+				DCC2DDDBF9D818C41CB3AE50B2C72533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77BEA7F1215382E499870FD2573CB169 /* PBXTargetDependency */,
+				C13EC9A72CAA6B85BBFD41194C17D5E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-Fyra";
+			productName = "Pods-Fyra";
+			productReference = 6F38B61B115936680658EEC7351B9C37 /* Pods_Fyra.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		920E2DB6524DB28E5427BA5AD43E1F36 /* Pods-FyraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B15113E0BD5D8632460CADFD8281378 /* Build configuration list for PBXNativeTarget "Pods-FyraTests" */;
+			buildPhases = (
+				9D291C265B9D86389B8DDCC7C3CE728A /* Headers */,
+				7495C7FB83D24450859087DB9A813FE4 /* Sources */,
+				8E842A3ABB93E530ACB61EEA1EAC23D6 /* Frameworks */,
+				5FB68E2FEC2A6051083285BBD4D05CF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE12FCCF792C97E2279819E78556DB98 /* PBXTargetDependency */,
+			);
+			name = "Pods-FyraTests";
+			productName = "Pods-FyraTests";
+			productReference = C0F4AB62CC861644D9729D1E56FA41A4 /* Pods_FyraTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 09E81083E7473A8B8E3F85905860E940 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0422742DF5CC42F97485A5A4607BBEE9 /* PKHUD */,
+				4C3315A1ABAE8BC33824D088C610C951 /* PKHUD-PKHUDResources */,
+				70C5FED20085B1354EF68991DF4DA813 /* Pods-Fyra */,
+				920E2DB6524DB28E5427BA5AD43E1F36 /* Pods-FyraTests */,
+				4320254321AA87AF3CC99EC7EF5055A8 /* Spring */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02240CBC53F5A9C7D71BDF1AF7D9F620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16DB56D2D110826C502A4DFF6A6F0D3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D8FE0F203AF51C109E11B445C23B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9967627CA12A571655D6F64ECD4688B3 /* PKHUDResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB68E2FEC2A6051083285BBD4D05CF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A472BC7D7DA5A4D3B3BF980E2DBB1575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544C43867BB433B1E3B6135A7C299D2B /* Images.xcassets in Resources */,
+				6CFC3D5922A25E7887FF98731E8F75FC /* LoadingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC2DDDBF9D818C41CB3AE50B2C72533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DBDAD36350E4197D78E2E1F0A787823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4475B13BB559D6E38EFC0C3B6E0DFB2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584DA6928D93CB8AA7DDDEB67FF8FE5C /* FrameView.swift in Sources */,
+				99D620F94B0CD9C041635D559BD81B4A /* HUD.swift in Sources */,
+				F9718DA2D558B553E75E2031B94D55D8 /* PKHUD-dummy.m in Sources */,
+				7187B4DDEF3EF96F0E6983A9A0AEE61E /* PKHUD.swift in Sources */,
+				78B029B6D7F554212B95F64F80CDEC33 /* PKHUDAnimating.swift in Sources */,
+				3BC5BD0252DA8DA05906C5D590C834C9 /* PKHUDAnimation.swift in Sources */,
+				8C4D24A5AC87E30A33214EA4E7FA359B /* PKHUDAssets.swift in Sources */,
+				4FC4DA714B42350BC08EA10BD54A38AE /* PKHUDErrorView.swift in Sources */,
+				F51584A61D18FFFF50A115D6351EB91C /* PKHUDProgressView.swift in Sources */,
+				0C2767249291A4A1505A28CFC9498026 /* PKHUDRotatingImageView.swift in Sources */,
+				0AD7956E61AD5EF273B31E3878B480F9 /* PKHUDSquareBaseView.swift in Sources */,
+				6384CC7276BF926A6E48E96AA10EFC1A /* PKHUDSuccessView.swift in Sources */,
+				695A4D580E443E5DE0356968CCC393CD /* PKHUDSystemActivityIndicatorView.swift in Sources */,
+				ECB37571500A625742833F6EDD1CE4E1 /* PKHUDTextView.swift in Sources */,
+				9A1224693C7C3574E4A517844399E668 /* PKHUDWideBaseView.swift in Sources */,
+				EC093FB80F3090C6B466C94280790C23 /* Window.swift in Sources */,
+				8E945BA2AB75EB4A3E0B0E66CAB5D17C /* WindowRootViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6828A815CE7F6B63936A10D59DFE9B81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA448087CF120FD05F25AACF83545866 /* Pods-Fyra-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7495C7FB83D24450859087DB9A813FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40233B1C6249BFFCCAE0DF167F2FF4A1 /* Pods-FyraTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94A747548A0B0D9788E6342D39DED40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B857D57BA384665C2654CEC15484A74B /* AsyncButton.swift in Sources */,
+				BABB00B439421D8E6C0CA74E4856DC1A /* AsyncImageView.swift in Sources */,
+				A6814D76444841F19FB2F03784B12B44 /* AutoTextView.swift in Sources */,
+				2C7A596D1F2963E6BF8759A4421D489F /* BlurView.swift in Sources */,
+				346D96EC6AD5E044E3DD8D0413C531B4 /* DesignableButton.swift in Sources */,
+				ED38828CD0409A41B5D20AB0EB39E62F /* DesignableImageView.swift in Sources */,
+				AC595F7D171592EADE499655EF9B99BD /* DesignableLabel.swift in Sources */,
+				3D8A37980B8903477F9F69787E3A9C14 /* DesignableTabBarController.swift in Sources */,
+				C55F9AED173B7EB47B8B682BFB5B1F9B /* DesignableTextField.swift in Sources */,
+				F86FE1EF612D049AE02120C7131FCCE6 /* DesignableTextView.swift in Sources */,
+				37CE7BF0539FF57DFDC31A1E7F99DE66 /* DesignableView.swift in Sources */,
+				033AD29C894376B4562F8B123610270E /* ImageLoader.swift in Sources */,
+				B20CB7773A267E01F52049C7A44AD9AC /* KeyboardLayoutConstraint.swift in Sources */,
+				0410EA36EB213CA5C2CDABB1C73CC03E /* LoadingView.swift in Sources */,
+				C6782B8D0400FDF3C29F6DFA26ED0C01 /* Misc.swift in Sources */,
+				861A83E84F0EC39F840743D1A0660FC5 /* SoundPlayer.swift in Sources */,
+				B37A6249D0D75C604ECA41733B47F48B /* Spring-dummy.m in Sources */,
+				67E158A0727585CCB1C0751ED68008EA /* Spring.swift in Sources */,
+				8A71B3452093E5FDDAC6CD0C5E0F61D5 /* SpringAnimation.swift in Sources */,
+				EB6118DF76C0B2DF1EB2180D3BBBC655 /* SpringButton.swift in Sources */,
+				A5BA3195C26671DC1A1C611C3928C014 /* SpringImageView.swift in Sources */,
+				5B1E75D11D2C7AD4AA9E001143E1492E /* SpringLabel.swift in Sources */,
+				B49C0CEF1B1C6ACAF782E5E8DA8ADE6E /* SpringTextField.swift in Sources */,
+				ECA9CCDEB9371ED78FFC662C9ADD5A10 /* SpringTextView.swift in Sources */,
+				51922405AAE7A0967A0FCD8C902EC83D /* SpringView.swift in Sources */,
+				80A5D76C0DEF169F196CE28A51F2EFBD /* TransitionManager.swift in Sources */,
+				5701A5452B78F848CFE4EA65223ECCA2 /* TransitionZoom.swift in Sources */,
+				263D3E5D43D7A409E4C12ECFA4D385F3 /* UnwindSegue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08CE7830C1B53D424111C0E1C7BECDA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PKHUD-PKHUDResources";
+			target = 4C3315A1ABAE8BC33824D088C610C951 /* PKHUD-PKHUDResources */;
+			targetProxy = E0883D7F7AB2ACD8990E5C3D4857446A /* PBXContainerItemProxy */;
+		};
+		77BEA7F1215382E499870FD2573CB169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PKHUD;
+			target = 0422742DF5CC42F97485A5A4607BBEE9 /* PKHUD */;
+			targetProxy = 3D0E185D2D95C644D89EE74584A554B6 /* PBXContainerItemProxy */;
+		};
+		C13EC9A72CAA6B85BBFD41194C17D5E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Spring;
+			target = 4320254321AA87AF3CC99EC7EF5055A8 /* Spring */;
+			targetProxy = E82D13EF2B6758EECE3EC3CAE3E003AE /* PBXContainerItemProxy */;
+		};
+		FE12FCCF792C97E2279819E78556DB98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Fyra";
+			target = 70C5FED20085B1354EF68991DF4DA813 /* Pods-Fyra */;
+			targetProxy = 90C85E4AFEBF9B8359C9E72E2A3E4444 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BEAE452BF3F56BA3D3196B403CB2355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0B762EC969BEF2FB85DBA928B4CD7D3 /* PKHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PKHUD";
+				INFOPLIST_FILE = "Target Support Files/PKHUD/ResourceBundle-PKHUDResources-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PKHUDResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		14BE80565A236D933BB1C29DDDBA12C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31D92569A67ABC964E30AE98F62AB6C /* Pods-FyraTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FyraTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FyraTests/Pods-FyraTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4230190C5BE98132B28AE3C75EE2EE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDDC7F0C93897B51DAABBDA8DB9015A3 /* Pods-FyraTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FyraTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FyraTests/Pods-FyraTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		734A472121F9303C9EB01B8AA6C4439C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0B762EC969BEF2FB85DBA928B4CD7D3 /* PKHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PKHUD";
+				INFOPLIST_FILE = "Target Support Files/PKHUD/ResourceBundle-PKHUDResources-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PKHUDResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7491FCAF789362EC967E68470E22CDAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0B762EC969BEF2FB85DBA928B4CD7D3 /* PKHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PKHUD/PKHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PKHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PKHUD/PKHUD.modulemap";
+				PRODUCT_MODULE_NAME = PKHUD;
+				PRODUCT_NAME = PKHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A0A85BD67728CD1F82F214612536F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0B762EC969BEF2FB85DBA928B4CD7D3 /* PKHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PKHUD/PKHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PKHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PKHUD/PKHUD.modulemap";
+				PRODUCT_MODULE_NAME = PKHUD;
+				PRODUCT_NAME = PKHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA83CC50BB019E3E3C2EA7368A22F54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE3795476549006F9B265D3585ED408 /* Pods-Fyra.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Fyra/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fyra/Pods-Fyra.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ADB1D726B3B0EC2BB744035E396BE995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C661213AA5855FC3FD81F625C36CC58 /* Spring.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Spring/Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Spring/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Spring/Spring.modulemap";
+				PRODUCT_MODULE_NAME = Spring;
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0F907E218877CC39A01C8A9F5EC3468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B041750F7C360D3BEA65CD9374A580 /* Pods-Fyra.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Fyra/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fyra/Pods-Fyra.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C92782E717C52E3633C9A5F211E7987A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D9FF1E414E3F99130D4A5E8A70695472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C661213AA5855FC3FD81F625C36CC58 /* Spring.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Spring/Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Spring/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Spring/Spring.modulemap";
+				PRODUCT_MODULE_NAME = Spring;
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA8C7AF90938697605468604B2A17B9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92782E717C52E3633C9A5F211E7987A /* Debug */,
+				EA8C7AF90938697605468604B2A17B9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		381276FC1832C261A01967F16A9A08BE /* Build configuration list for PBXNativeTarget "Pods-Fyra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA83CC50BB019E3E3C2EA7368A22F54B /* Debug */,
+				C0F907E218877CC39A01C8A9F5EC3468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B15113E0BD5D8632460CADFD8281378 /* Build configuration list for PBXNativeTarget "Pods-FyraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4230190C5BE98132B28AE3C75EE2EE94 /* Debug */,
+				14BE80565A236D933BB1C29DDDBA12C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C15B5AB1F9207DB439180AE3C39F2C0 /* Build configuration list for PBXNativeTarget "PKHUD-PKHUDResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734A472121F9303C9EB01B8AA6C4439C /* Debug */,
+				0BEAE452BF3F56BA3D3196B403CB2355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F3745AF89B93F23E8A26CA404655A54 /* Build configuration list for PBXNativeTarget "PKHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0A85BD67728CD1F82F214612536F4D /* Debug */,
+				7491FCAF789362EC967E68470E22CDAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2804599F57098FD74576D81BB6C2EDA /* Build configuration list for PBXNativeTarget "Spring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB1D726B3B0EC2BB744035E396BE995 /* Debug */,
+				D9FF1E414E3F99130D4A5E8A70695472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
